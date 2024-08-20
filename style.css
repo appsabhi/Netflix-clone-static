@@ -1,0 +1,454 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body{
+    margin:0;
+}
+.main
+{
+    width: 100%;
+    height: 600vh;
+   
+   
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url('/images/background.jpg');
+    background-size: 100%;
+    border-bottom: 10px solid grey;
+}
+.header1
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+}
+.header_
+{
+    
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.671) ;
+}
+
+.logo
+{
+    width: 200px;
+    height: 70px;
+    color: red;
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.btns_right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lan_btn
+{
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: #fff;
+    border-radius: 5px;
+
+
+}
+.signin_btn{
+
+    width:70px;
+    height: 30px;
+    border-style:none;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.1s  ease-in-out;
+
+
+}
+.signin_btn:hover{
+    cursor: pointer;
+
+    transform: scale(1.2);
+}
+.drop_down_icon
+{
+    width: 10px;
+    height: 10px;
+
+}
+.membership
+{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head{
+    font-weight: bold;
+    font-size: 50px;
+}
+.para1
+{
+    font-size: 25px;
+}
+.para2{
+    font-size: 25px;
+}
+.mail
+{
+    width: 400px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-style: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+
+
+.get_started{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.btn_started
+{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-style: none;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.downlod_on_tv
+{ 
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 200px;
+    border-bottom: 10px solid grey;
+
+
+}
+.left_side
+{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.right_side
+{
+    width: 50%;
+    height: 60%;
+    
+
+}
+.right_side img{
+    width: 60%;
+    height: 100%;
+}
+.download_on_mobile{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    border-bottom: 10px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.right_download{
+    color:#ffff;
+    font-size: 25px;
+    height: 70%;
+    width: 50%;
+    height: 50%;
+}
+.left_mobile
+{
+   width: 40%;
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left_mobile  img
+{
+  width: 100%;
+  height: 60%;
+
+}
+.watch_everywhere
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    border-bottom: 10px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left_side_watch
+{
+    width: 50%;
+    height: 50%;
+    color: #fff;
+    margin-left: 200px;
+   
+}
+.computer_img_section
+{
+    width: 50%;
+    height: 80%;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+   
+
+}
+.computer_img_section img{
+    width: 100%;
+    height: 90%;
+   
+   }
+.watch_head
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.para4{
+    font-size: 25px
+}
+.kids{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    border-bottom: 10px solid grey;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.left_kids_img
+{
+    width: 50%;
+    height: 100%;
+  
+}
+.profiles
+{
+    width: 50%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:start;
+}
+.profile_head{
+    width: 50%;
+    color: #fff;
+    font-size: 40px;
+    
+   
+    
+}
+.para5{
+    color: #ffff;
+    font-size: 30px;
+}
+.ask_questions
+{
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+    border-bottom: 10px solid grey;
+}
+.question_head
+{
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.questions{
+     width: 100%;
+     height: 60%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+}
+.q1
+{
+   width: 70%;
+   height: 70px;
+   background-color: rgb(34, 33, 33);
+   display: flex;
+   align-items: center;
+   padding-left: 20px;
+   justify-content: space-between;
+   color: #fff;
+}
+.q2
+{ width: 70%;
+    height: 70px;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    color: #fff;
+}
+.q3
+{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    color: #fff;
+}
+.q4
+{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    color: #fff;
+}
+.q5
+{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  justify-content: space-between;
+    color: #fff;
+}
+.q6
+{
+    width: 70%;
+   height: 70px;
+   background-color: rgb(34, 33, 33);
+   display: flex;
+   align-items: center;
+   padding-left: 20px;
+    justify-content: space-between;
+   color: #fff;
+}
+.plus_icon{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+p{
+    font-size: 25px;
+    color: #fff;
+}
+.icons
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.ready{
+    width: 100%;
+    height:20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer
+{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer1
+{   
+    width:80%;
+    height: 80%;
+    display: grid;
+    justify-content: center;
+    margin-left: 70px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4 , 50px);
+
+    
+}
+.call
+{   width: 100%;
+    height: 20%;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    margin-left:300px;
+}
+.foot{
+    width: 200px;
+    height: 10px;
+    text-decoration: none;
+   
+}
+a{
+    color: rgb(216, 216, 216);
+}
+.foot_btn
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+
+}
